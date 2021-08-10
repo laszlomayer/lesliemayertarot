@@ -79,8 +79,8 @@
 }
 
 html {
-	background-color: #2E3284;
-	color: #B9D0DA;
+	background-color: #F1F1F1;
+	color: #4C4C4C;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 }
@@ -102,7 +102,7 @@ h3 {
 	font-weight: 700;
 	font-size: 1.2rem;
 	margin-bottom: 0.5rem;
-	color: #3EB9A9;
+	color: #2CB4AF;
 }
 
 h4 {
@@ -113,7 +113,7 @@ h4 {
 }
 
 a {
-	color: #E5BE1A;
+	color: #2CB4AF;
 }
 
 .logo a {
@@ -161,11 +161,11 @@ main {
 }
 
 .alternate-bg {
-	background-color: #3B44AA;
+	background-color: #D7D7D7;
 }
 
 .dark-bg {
-	background-color: #2E3284;
+	background-color: #838383;
 }
 
 
@@ -196,20 +196,22 @@ main {
 }
 
 .color-box {
-	background-color: #563191;
+	background-color: #5A5A5A;
 	padding: 1.5rem 1.5rem 2rem 1.5rem;
-/*	border-radius: 0.7rem;*/
-	border-left: 10px solid #3EB9A9;
+	border-radius: 0.7rem;
+	border-left: 10px solid #49d1cd;
 }
+
+
 
 /*Section Styling*/
 
 /*Header Section*/
 header {
-	background-color: #2A205E;
+	background-color: #424242;
 	position: fixed;
 	width: 100%;
-	height: 2.82rem;
+	height: 3.88rem;
 	z-index: 10;
 }
 
@@ -221,11 +223,11 @@ nav li {
 }
 
 nav .nav-currentpage {
-	background-color: #563191;
+	background-color: #696969;
 }
 
 nav a {
-	color: #B9D0DA;
+	color: #DBDBDB;
 	font-size: 0.8rem;
 }
 
@@ -245,12 +247,15 @@ nav .inactive {
 /*Hero Section*/
 #hero {
 /*	background-color: #3EB9A9;*/
-	color: #563191;
-	padding: 5rem 0;
-	background-image: -webkit-linear-gradient(24.56deg, #67cfb9 28%, #33a0d9 50%, #5456b8 60%, #5f3cad 72%);
-	background-image: -moz-linear-gradient(24.56deg, #67cfb9 28%, #33a0d9 50%, #5456b8 60%, #5f3cad 72%);
-	background-image: -o-linear-gradient(24.56deg, #67cfb9 28%, #33a0d9 50%, #5456b8 60%, #5f3cad 72%);
-	background-image: linear-gradient(65.44deg, #67cfb9 28%, #33a0d9 50%, #5456b8 60%, #5f3cad 72%);
+	background-color:#7E7E7E;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;	
+}
+
+#hero .center {
+	padding: 0;
 }
 
 #hero h2 {
@@ -295,36 +300,8 @@ nav .inactive {
 }
 
 
-/*Portfolio Section*/
-#portfolio-section {
-	position: relative;
-}
-
-
-.portfolio-project {
-	width: 33.33%;
-	float: left;
-	padding-right: 1rem;
-}
-
-.portfolio-padding {
-	background-color: #2E3284;
-	border-radius: 0.7rem;
-	overflow: hidden;
-}
-
-.portfolio-project .textbox {
-	padding: 1.5rem 1.5rem 2rem 1.5rem;
-	border-top: 5px solid #7A4DC2;
-}
-
-.last-paragraph {
-	margin-bottom: 2rem;
-}
-
-
-/*Story Section*/
-#story-section {
+/*Contact Section*/
+#contact-section {
 	position: relative;
 }
 
@@ -334,8 +311,8 @@ nav .inactive {
 footer {
 	position: relative;
 	top: 2.82rem;
-	background-color: #222331;
-	color: #6598AD;
+	background-color: #2F2F2F;
+	color: #787878;
 	padding: 2rem 0 3rem 0;
 	font-size: 0.8rem;
 }
