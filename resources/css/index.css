@@ -83,10 +83,18 @@ html {
 	color: #4C4C4C;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4 {
+	line-height: 1.4;
 }
 
 h1, h2 {
 	font-weight: 800;
+	color: #727272;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 }
 
 h1 {
@@ -95,24 +103,39 @@ h1 {
 
 h2 {
 	font-size: 1.5rem;
-	margin-bottom: 1rem;
+}
+
+h3, h4 {
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
 }
 
 h3 {
 	font-weight: 700;
 	font-size: 1.2rem;
-	margin-bottom: 0.5rem;
 	color: #2CB4AF;
 }
 
 h4 {
 	font-weight: 700;
 	font-size: 1.1rem;
+	color: #727272;
+}
+
+p {
+	line-height: 1.4;
 	margin-bottom: 0.5rem;
-	color: #B9D0DA;
 }
 
 a {
+	color: #6A70D4;
+}
+
+strong {
+	font-weight: 700;
+}
+
+.coloremphasis {
 	color: #2CB4AF;
 }
 
@@ -197,9 +220,13 @@ main {
 
 .color-box {
 	background-color: #5A5A5A;
-	padding: 1.5rem 1.5rem 2rem 1.5rem;
+	padding: 0.1rem 1.5rem 1.5rem 1.5rem;
 	border-radius: 0.7rem;
 	border-left: 10px solid #49d1cd;
+}
+
+.color-box a {
+	color: #A5A8E4;
 }
 
 
@@ -305,7 +332,13 @@ nav .inactive {
 	position: relative;
 }
 
+.color-box {
+	color: #ECECEC;
+}
 
+.color-box h2 {
+	color: #49d1cd;
+}
 
 /*Footer Section*/
 footer {
