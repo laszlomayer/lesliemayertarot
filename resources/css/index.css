@@ -135,6 +135,12 @@ strong {
 	font-weight: 700;
 }
 
+.big-quot {
+	font-size: 2.2rem;
+	line-height: 1.8rem;
+	color: #2CB4AF;
+}
+
 .coloremphasis {
 	color: #2CB4AF;
 }
@@ -195,6 +201,9 @@ main {
 	background-color: #838383;
 }
 
+.light-bg {
+	background-color: #F1F1F1;
+}
 
 /*Components*/
 
@@ -330,6 +339,14 @@ nav .inactive {
 	color: #2E3284;
 }
 
+/*Testimonial Section*/
+.testimonial {
+	padding: 1.5rem;
+}
+
+.testimonial h4 {
+	line-height: 1.8rem;
+}
 
 /*Contact Section*/
 #contact-section {
