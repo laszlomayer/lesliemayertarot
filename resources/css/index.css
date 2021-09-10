@@ -135,6 +135,10 @@ strong {
 	font-weight: 700;
 }
 
+i {
+	font-family: FontAwesome;
+}
+
 .big-quot {
 	font-size: 2.2rem;
 	line-height: 1.8rem;
