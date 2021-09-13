@@ -179,6 +179,12 @@ i {
 	justify-content: center;
 }
 
+.start-end-flex {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	}
+
 .center-narow {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
@@ -422,6 +428,11 @@ nav .inactive {
 
 .color-box h3 {
 	color: #49d1cd;
+}
+
+.container-2col {
+	width: 50%;
+	padding-right: 2rem;
 }
 
 /*Footer Section*/
