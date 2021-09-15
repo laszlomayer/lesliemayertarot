@@ -345,58 +345,29 @@ nav .inactive {
 	background-color: #424242;
 	z-index: 10;
 }
-#bars {
-		display: none;
-		position: fixed;
-		top: 1.7rem;
-		left: 1rem;
-		color: #ECECEC;
-		background-color: #424242;
-		z-index: 25;
-/*		cursor: pointer;*/
-		pointer-events: none;
-	}
-#close-menu {
+.show-menu {
 	display: none;
 	position: fixed;
 	top: 1.7rem;
-	right: 1rem;
-	color: #49d1cd;
+	left: 1rem;
+	color: #ECECEC;
 	background-color: #424242;
-	z-index: 24;
-/*	cursor: pointer;*/
-	pointer-events: none;
+	z-index: 25;
+	}
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
 }
-
-
-
-header:hover ~ #menu-bg {
-		height: 9.8rem;
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ .show-menu {
+	transform: rotate(90deg);
 }
-
-header:hover nav {
+input[type=checkbox]:checked ~ #menu-bg {
+	height: 9.8rem;	
+}
+input[type=checkbox]:checked ~ header nav {
 	display: block;
 }
-
-/*
-header:hover ~ #close-menu {
-	display: block
-}
-*/
-
-header:hover ~ #bars {
-/*	transform: rotate(90deg);*/
-	display: none;
-}
-
-
-/*
-#close-menu {
-	pointer-events: auto;
-}
-*/
-
-
 
 
 /*Hero Section*/
@@ -552,11 +523,7 @@ footer {
 }
 
 @media only screen and (max-width: 560px) {
-/*
-	main {
-		top: 9.8rem;
-	}
-*/
+
 	header {
 		height: 9.8rem;
 		background-color: rgba(0,0,0,0.00);
@@ -564,7 +531,7 @@ footer {
 	#menu-bg {
 		display: block;
 	}
-	#bars {
+	.show-menu {
 		display: block;
 	}
 	
@@ -586,12 +553,6 @@ footer {
 		margin-top: 0.5rem;
 		display: none;
 	}
-	
-/*
-	header:hover ~ nav {
-	display: block;
-}
-*/
 	
 	nav li {
 		display: block;
