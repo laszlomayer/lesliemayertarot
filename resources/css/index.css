@@ -585,7 +585,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 	.center, .center-narow {
 		padding: 2rem 1rem;
 	}
@@ -594,9 +594,9 @@ footer {
 		font-size: 2rem;
 	}
 }
-
-@media only screen and (max-width: 560px) {
-
+/*Mobile Menu*/
+@media only screen and (max-width: 620px) {
+	
 	header {
 		height: 9.8rem;
 		background-color: rgba(0,0,0,0.00);
