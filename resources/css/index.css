@@ -409,7 +409,7 @@ input[type=checkbox]:checked ~ .show-menu {
 	transform: rotate(90deg);
 }
 input[type=checkbox]:checked ~ #menu-bg {
-	height: 9.8rem;	
+	height: 12.4rem;	
 }
 input[type=checkbox]:checked ~ header nav {
 	display: block;
@@ -598,7 +598,7 @@ footer {
 @media only screen and (max-width: 620px) {
 	
 	header {
-		height: 9.8rem;
+		height: 12.4rem;
 		background-color: rgba(0,0,0,0.00);
 	}
 	#menu-bg {
