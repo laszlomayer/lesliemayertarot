@@ -250,6 +250,10 @@ main {
 	background-color: #2CB4AF;
 }
 
+.darkred-bg {
+	background-color: #7C0002;
+}
+
 h4.turquois-bg {
 	color: #ECECEC;
 }
@@ -257,6 +261,19 @@ h4.turquois-bg {
 h2.turquois-bg {
 	color: #ECECEC;
 }
+
+.darkred-bg h4 {
+	color: #ECECEC;
+}
+
+h2.darkred-bg {
+	color: #ECECEC;
+}
+
+.color-light {
+	color: #ECECEC;
+}
+
 
 /*Components*/
 .button, .button-2, .button-3 {
@@ -505,6 +522,13 @@ input[type=checkbox]:checked ~ header nav {
 	margin-right: 1rem;
 }
 
+#img-halloween {
+	flex-shrink: 0;
+	flex-grow: 0;
+	width: 500px;
+	margin-right: 1rem;
+}
+
 
 /*Contact Section*/
 #contact-section {
@@ -573,6 +597,14 @@ footer {
 	#email-container .no-top-margin {
 		margin-top: 1rem;
 	}
+	
+	#halloween-cont {
+		flex-wrap: wrap;
+	}
+	#halloween-cont .no-top-margin {
+		margin-top: 1rem;
+	}
+	
 }
 
 @media only screen and (max-width: 800px) {
